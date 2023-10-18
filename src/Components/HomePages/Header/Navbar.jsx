@@ -22,7 +22,7 @@ const Navbar = () => {
       </li>
       <li>
         <NavLink
-          to="/my-cart"
+          to="/myCart"
           className="text-slate-800 hover:text-blue-200 text-xl font-semibold"
         >
           My Cart

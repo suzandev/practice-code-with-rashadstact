@@ -3,20 +3,38 @@ import Root from "./Root";
 import ErrorPage from "./ErrorPage";
 import Home from "./Components/HomePages/Home/Home";
 import AddProducts from "./Components/Routes/AddProducts/AddProducts";
+import MyCart from "./Components/Routes/MyCart/MyCart";
+import CardContextProvider from "./Components/Routes/CardContext/CardContext";
+import DetailsPages from "./Components/Routes/MyCart/DetailsPages";
+import CategoryItems from "./Components/HomePages/Home/CategoryItems";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Root />,
     errorElement: <ErrorPage />,
+
     children: [
       {
         path: "/",
         element: <Home />,
+        loader: () => fetch("/data.json"),
       },
       {
         path: "/addProducts",
         element: <AddProducts />,
+      },
+      {
+        path: "/myCart",
+        element: <MyCart />,
+      },
+      {
+        path: "/detailsPages/:id",
+        element: <DetailsPages />,
+      },
+      {
+        path: "/categoryItems",
+        element: <CategoryItems />,
       },
     ],
   },
@@ -25,7 +43,9 @@ const router = createBrowserRouter([
 function App() {
   return (
     <div className="container mx-auto">
-      <RouterProvider router={router} />
+      <CardContextProvider>
+        <RouterProvider router={router} />
+      </CardContextProvider>
     </div>
   );
 }

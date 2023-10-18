@@ -1,0 +1,136 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "picture": "/images/add1d.jpeg",
+      "title": "Clean water for children",
+      "category": "Health",
+      "category_bg": "#0052FF",
+      "card_bg": "#0052FF26",
+      "text_button_bg": "#0052FF",
+      "description": "Promoting Health, One Drop at a Time. In the pursuit of a healthier future, we believe that access to clean water is not a privilege but a fundamental right. Our mission is to ensure that every child, regardless of their circumstances, can quench their thirst with safe, clean water. Join us in our noble cause to provide 'Clean Water for Children.' Your generous contribution will make a world of difference, safeguarding young lives from waterborne diseases and empowering them to thrive. Together, we can turn the tide, one drop at a time, and build a healthier world for our children",
+      "price": "$199.99"
+    },
+    {
+      "id": 2,
+      "picture": "/images/add2.jpeg",
+      "title": "Good education",
+      "category": "Education",
+      "category_bg": "#FF444A",
+      "card_bg": "#FF444A26",
+      "text_button_bg": "#FF444A",
+      "description": "Unlocking Bright Futures: Empowering through Good Education. In the journey towards a brighter tomorrow, education serves as the key to unlocking limitless potential. Our commitment to providing quality education is unwavering, for we believe that every child deserves access to a good education. Join us in our mission to empower young minds through 'Good Education.' Your support will pave the way for brighter futures, equipping students with the knowledge and skills they need to thrive in an ever-changing world. By contributing to this cause, you become a vital part of the transformational journey, shaping the leaders and innovators of tomorrow. Together, we can ensure that education remains a beacon of hope and opportunity for all.",
+      "price": "$49.99"
+    },
+    {
+      "id": 3,
+      "picture": "/images/add3.jpeg",
+      "title": "Used Clothing Drive",
+      "category": "Clothing",
+      "category_bg": "#79C23F",
+      "card_bg": "#79C23F26",
+      "text_button_bg": "#79C23F",
+      "description": "Share Warmth, Spread Hope: Join Our Used Clothing Drive. In the spirit of compassion and giving, we invite you to participate in our 'Used Clothing Drive.' Every piece of clothing you donate has the power to bring warmth, comfort, and hope to those in need. As the seasons change, so do the lives of individuals and families facing adversity. Your gently-used clothing items can make a world of difference, providing not just protection from the elements but also a renewed sense of dignity and self-worth. Together, we can create a ripple of goodwill, one sweater, one pair of shoes, and one coat at a time. Join us in this heartwarming endeavor, and let's make a positive impact on the lives of those less fortunate.",
+      "price": "$79.99"
+    },
+    {
+      "id": 4,
+      "picture": "/images/add4.jpeg",
+      "title": "Better Food for Everyone",
+      "category": "Food",
+      "category_bg": "#F87147",
+      "card_bg": "#F8714726",
+      "text_button_bg": "#F87147",
+      "description": "Nourishing Lives, One Meal at a Time: Join Our 'Better Food for Everyone' Campaign. At the heart of vibrant communities is access to wholesome, nourishing food. We believe that everyone should have the opportunity to enjoy not just a meal but a better meal, one that fuels dreams and empowers lives. Our 'Better Food for Everyone' campaign is a pledge to make this vision a reality. By coming together, we can provide access to healthier, more sustainable food options for individuals and families in need. Your support will help us distribute fresh produce, balanced meals, and essential nutrition to those who require it most. Together, we can transform lives through the simple act of sharing. Join us in this endeavor, and let's create a world where better food is a reality for everyone, regardless of circumstance.",
+      "price": "$29.99"
+    },
+    {
+      "id": 5,
+      "picture": "/images/add4.jpeg",
+      "title": "Better Food for Everyone",
+      "category": "Food",
+      "category_bg": "#F87147",
+      "card_bg": "#F8714726",
+      "text_button_bg": "#F87147",
+      "description": "Nourishing Lives, One Meal at a Time: Join Our 'Better Food for Everyone' Campaign. At the heart of vibrant communities is access to wholesome, nourishing food. We believe that everyone should have the opportunity to enjoy not just a meal but a better meal, one that fuels dreams and empowers lives. Our 'Better Food for Everyone' campaign is a pledge to make this vision a reality. By coming together, we can provide access to healthier, more sustainable food options for individuals and families in need. Your support will help us distribute fresh produce, balanced meals, and essential nutrition to those who require it most. Together, we can transform lives through the simple act of sharing. Join us in this endeavor, and let's create a world where better food is a reality for everyone, regardless of circumstance.",
+      "price": "$39.99"
+    },
+    {
+      "id": 6,
+      "picture": "/images/add3.jpeg",
+      "title": "Used Clothing Drive",
+      "category": "Clothing",
+      "category_bg": "#79C23F",
+      "card_bg": "#79C23F26",
+      "text_button_bg": "#79C23F",
+      "description": "Share Warmth, Spread Hope: Join Our Used Clothing Drive. In the spirit of compassion and giving, we invite you to participate in our 'Used Clothing Drive.' Every piece of clothing you donate has the power to bring warmth, comfort, and hope to those in need. As the seasons change, so do the lives of individuals and families facing adversity. Your gently-used clothing items can make a world of difference, providing not just protection from the elements but also a renewed sense of dignity and self-worth. Together, we can create a ripple of goodwill, one sweater, one pair of shoes, and one coat at a time. Join us in this heartwarming endeavor, and let's make a positive impact on the lives of those less fortunate.",
+      "price": "$149.99"
+    },
+    {
+      "id": 7,
+      "picture": "/images/add2.jpeg",
+      "title": "Good education",
+      "category": "Education",
+      "category_bg": "#FF444A",
+      "card_bg": "#FF444A26",
+      "text_button_bg": "#FF444A",
+      "description": "Unlocking Bright Futures: Empowering through Good Education. In the journey towards a brighter tomorrow, education serves as the key to unlocking limitless potential. Our commitment to providing quality education is unwavering, for we believe that every child deserves access to a good education. Join us in our mission to empower young minds through 'Good Education.' Your support will pave the way for brighter futures, equipping students with the knowledge and skills they need to thrive in an ever-changing world. By contributing to this cause, you become a vital part of the transformational journey, shaping the leaders and innovators of tomorrow. Together, we can ensure that education remains a beacon of hope and opportunity for all.",
+      "price": "$69.99"
+    },
+    {
+      "id": 8,
+      "picture": "/images/add1d.jpeg",
+      "title": "Clean water for children",
+      "category": "Health",
+      "category_bg": "#0052FF",
+      "card_bg": "#0052FF26",
+      "text_button_bg": "#0052FF",
+      "description": "Promoting Health, One Drop at a Time. In the pursuit of a healthier future, we believe that access to clean water is not a privilege but a fundamental right. Our mission is to ensure that every child, regardless of their circumstances, can quench their thirst with safe, clean water. Join us in our noble cause to provide 'Clean Water for Children.' Your generous contribution will make a world of difference, safeguarding young lives from waterborne diseases and empowering them to thrive. Together, we can turn the tide, one drop at a time, and build a healthier world for our children",
+      "price": "$59.99"
+    },
+    {
+      "id": 9,
+      "picture": "/images/add1d.jpeg",
+      "title": "Clean water for children",
+      "category": "Health",
+      "category_bg": "#0052FF",
+      "card_bg": "#0052FF26",
+      "text_button_bg": "#0052FF",
+      "description": "Promoting Health, One Drop at a Time. In the pursuit of a healthier future, we believe that access to clean water is not a privilege but a fundamental right. Our mission is to ensure that every child, regardless of their circumstances, can quench their thirst with safe, clean water. Join us in our noble cause to provide 'Clean Water for Children.' Your generous contribution will make a world of difference, safeguarding young lives from waterborne diseases and empowering them to thrive. Together, we can turn the tide, one drop at a time, and build a healthier world for our children",
+      "price": "$89.99"
+    },
+    {
+      "id": 10,
+      "picture": "/images/add2.jpeg",
+      "title": "Good education",
+      "category": "Education",
+      "category_bg": "#FF444A",
+      "card_bg": "#FF444A26",
+      "text_button_bg": "#FF444A",
+      "description": "Unlocking Bright Futures: Empowering through Good Education. In the journey towards a brighter tomorrow, education serves as the key to unlocking limitless potential. Our commitment to providing quality education is unwavering, for we believe that every child deserves access to a good education. Join us in our mission to empower young minds through 'Good Education.' Your support will pave the way for brighter futures, equipping students with the knowledge and skills they need to thrive in an ever-changing world. By contributing to this cause, you become a vital part of the transformational journey, shaping the leaders and innovators of tomorrow. Together, we can ensure that education remains a beacon of hope and opportunity for all.",
+      "price": "$24.99"
+    },
+    {
+      "id": 11,
+      "picture": "/images/add3.jpeg",
+      "title": "Used Clothing Drive",
+      "category": "Clothing",
+      "category_bg": "#79C23F",
+      "card_bg": "#79C23F26",
+      "text_button_bg": "#79C23F",
+      "description": "Share Warmth, Spread Hope: Join Our Used Clothing Drive. In the spirit of compassion and giving, we invite you to participate in our 'Used Clothing Drive.' Every piece of clothing you donate has the power to bring warmth, comfort, and hope to those in need. As the seasons change, so do the lives of individuals and families facing adversity. Your gently-used clothing items can make a world of difference, providing not just protection from the elements but also a renewed sense of dignity and self-worth. Together, we can create a ripple of goodwill, one sweater, one pair of shoes, and one coat at a time. Join us in this heartwarming endeavor, and let's make a positive impact on the lives of those less fortunate.",
+      "price": "$299.99"
+    },
+    {
+      "id": 12,
+      "picture": "/images/add4.jpeg",
+      "title": "Better Food for Everyone",
+      "category": "Food",
+      "category_bg": "#F87147",
+      "card_bg": "#F8714726",
+      "text_button_bg": "#F87147",
+      "description": "Nourishing Lives, One Meal at a Time: Join Our 'Better Food for Everyone' Campaign. At the heart of vibrant communities is access to wholesome, nourishing food. We believe that everyone should have the opportunity to enjoy not just a meal but a better meal, one that fuels dreams and empowers lives. Our 'Better Food for Everyone' campaign is a pledge to make this vision a reality. By coming together, we can provide access to healthier, more sustainable food options for individuals and families in need. Your support will help us distribute fresh produce, balanced meals, and essential nutrition to those who require it most. Together, we can transform lives through the simple act of sharing. Join us in this endeavor, and let's create a world where better food is a reality for everyone, regardless of circumstance.",
+      "price": "$34.99"
+    }
+  ]
+}

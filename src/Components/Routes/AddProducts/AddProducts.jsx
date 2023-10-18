@@ -14,7 +14,7 @@ const AddProducts = () => {
     const shortDescription = form.shortDescription.value;
     const photo = form.photo.value;
 
-    const newCoffee = {
+    const newProduct = {
       name,
       price,
       brandName,
@@ -23,7 +23,7 @@ const AddProducts = () => {
       shortDescription,
       photo,
     };
-    console.log(newCoffee);
+    console.log(newProduct);
 
     // send data to the server
     fetch("http://localhost:5000/coffee", {
@@ -31,7 +31,7 @@ const AddProducts = () => {
       headers: {
         "content-type": "application/json",
       },
-      body: JSON.stringify(newCoffee),
+      body: JSON.stringify(newProduct),
     })
       .then((res) => res.json())
       .then((data) => {
@@ -48,8 +48,8 @@ const AddProducts = () => {
   };
 
   return (
-    <div className="bg-[#F4F3F0] p-24">
-      <h3 className="text-3xl font-extrabold">Add a Coffee</h3>
+    <div className="bg-[#F4F3F0] p-6 md:p-24">
+      <h3 className="text-3xl font-extrabold">Add a Product</h3>
 
       <form onSubmit={handleAddProduct}>
         {/* name and price  */}
@@ -172,7 +172,7 @@ const AddProducts = () => {
 
         <input
           type="submit"
-          value="Add Coffee"
+          value="Add Product"
           className="btn btn-block bg-slate-300"
         />
       </form>

@@ -1,13 +1,13 @@
+import AllCards from "../../AddToCards/AllCards";
 import Banner from "./Banner";
 import Category from "./Category";
-import CategoryItems from "./CategoryItems";
 
 const Home = () => {
   return (
     <div>
       <Banner />
       <Category />
-      <CategoryItems />
+      <AllCards />
     </div>
   );
 };

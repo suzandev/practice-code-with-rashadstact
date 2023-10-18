@@ -3,6 +3,8 @@ import { ImHeadphones } from "react-icons/im";
 import { BsSmartwatch, BsFillBagHeartFill, BsPhoneFill } from "react-icons/bs";
 import { TbDeviceAirtag } from "react-icons/tb";
 
+import { Link } from "react-router-dom";
+
 const Category = () => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-4 my-10">
@@ -18,7 +20,9 @@ const Category = () => {
         <h2 className="card-title">Phones!</h2>
         <p>All Phones Hear</p>
         <div className="card-actions">
-          <button className="btn btn-primary">view details</button>
+          <Link className="btn btn-primary" to="/categoryItems">
+            view details
+          </Link>
         </div>
       </div>
       <div
@@ -30,7 +34,7 @@ const Category = () => {
           <AiOutlineLaptop size={75} />
         </div>
 
-        <h2 className="card-title">Phones!</h2>
+        <h2 className="card-title">Laptop!</h2>
         <p>All Phones Hear</p>
         <div className="card-actions">
           <button className="btn btn-primary">view details</button>
@@ -45,7 +49,7 @@ const Category = () => {
           <ImHeadphones size={75} />
         </div>
 
-        <h2 className="card-title">Phones!</h2>
+        <h2 className="card-title">Headphones!</h2>
         <p>All Phones Hear</p>
         <div className="card-actions">
           <button className="btn btn-primary">view details</button>
@@ -60,7 +64,7 @@ const Category = () => {
           <BsSmartwatch size={75} />
         </div>
 
-        <h2 className="card-title">Phones!</h2>
+        <h2 className="card-title">Smartwatch!</h2>
         <p>All Phones Hear</p>
         <div className="card-actions">
           <button className="btn btn-primary">view details</button>
@@ -90,7 +94,7 @@ const Category = () => {
           <BsFillBagHeartFill size={75} />
         </div>
 
-        <h2 className="card-title">Phones!</h2>
+        <h2 className="card-title">Bag!</h2>
         <p>All Phones Hear</p>
         <div className="card-actions">
           <button className="btn btn-primary">view details</button>
