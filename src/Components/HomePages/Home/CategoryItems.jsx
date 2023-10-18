@@ -1,7 +1,11 @@
+import CategoryItemsCard from "./CategoryItemsCard";
+import SwiperSlider from "./SwiperSlider";
+
 const CategoryItems = () => {
   return (
     <div>
-      <h3>This is Category items</h3>
+      <SwiperSlider />
+      <CategoryItemsCard />
     </div>
   );
 };
