@@ -32,27 +32,41 @@ export default function SwiperSlider() {
           slot="container-start"
           className="parallax-bg"
           style={{
-            "background-image":
-              "url(https://images.unsplash.com/photo-1504610926078-a1611febcad3?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTl8fHRlY2hub2xvZ3l8ZW58MHx8MHx8fDA%3D)",
+            "background-color": "#BEB996",
           }}
           data-swiper-parallax="-23%"
         ></div>
-        <SwiperSlide className="flex items-center flex-col justify-center text-center">
-          <div className="title" data-swiper-parallax="-300">
-            Phones
+        <SwiperSlide className="flex items-center  justify-evenly text-center">
+          <div>
+            <img
+              src="https://thememxpro.com/theme/foodily/wp-content/uploads/2022/09/icon-2.png"
+              alt=""
+            />
           </div>
-          <div className="subtitle" data-swiper-parallax="-200">
-            You can find your phones
+          <div>
+            <div className="title" data-swiper-parallax="-300">
+              Phones
+            </div>
+            <div className="subtitle" data-swiper-parallax="-200">
+              You can find your phones
+            </div>
+            <div className="text" data-swiper-parallax="-100">
+              <p>
+                Introducing the next level of smartphone technology. This
+                innovative device is here to redefine the way you use your
+                phone. With its sleek sliding mechanism, Enjoy a full-screen
+                experience when you need it, and the compact convenience of a
+                phone when you do not. Stay ahead of the curve with the Phone
+                Slider where style meets substance in the world of mobile
+                communication.
+              </p>
+            </div>
           </div>
-          <div className="text" data-swiper-parallax="-100">
-            <p>
-              Introducing the next level of smartphone technology. This
-              innovative device is here to redefine the way you use your phone.
-              With its sleek sliding mechanism, Enjoy a full-screen experience
-              when you need it, and the compact convenience of a phone when you
-              do not. Stay ahead of the curve with the Phone Slider where style
-              meets substance in the world of mobile communication.
-            </p>
+          <div className="w-[450px]">
+            <img
+              src="https://thememxpro.com/theme/foodily/wp-content/uploads/2022/09/content-image-2.png"
+              alt=""
+            />
           </div>
         </SwiperSlide>
         <SwiperSlide className="flex items-center flex-col justify-center text-center">

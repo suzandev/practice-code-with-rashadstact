@@ -1,5 +1,5 @@
 import { Link, NavLink } from "react-router-dom";
-import { BsApple } from "react-icons/bs";
+import { BsFillCartCheckFill } from "react-icons/bs";
 
 const Navbar = () => {
   const navLinks = (
@@ -7,7 +7,7 @@ const Navbar = () => {
       <li>
         <NavLink
           to="/"
-          className="text-slate-800 hover:text-blue-200 text-xl font-semibold"
+          className="text-slate-600 hover:text-slate-900 text-base"
         >
           Home
         </NavLink>
@@ -15,15 +15,40 @@ const Navbar = () => {
       <li>
         <NavLink
           to="/addProducts"
-          className="text-slate-800 hover:text-blue-200 text-xl font-semibold"
+          className="text-slate-600 hover:text-slate-900 text-base"
         >
-          Add Product
+          About
         </NavLink>
       </li>
       <li>
         <NavLink
-          to="/myCart"
-          className="text-slate-800 hover:text-blue-200 text-xl font-semibold"
+          to="/addProducts"
+          className="text-slate-600 hover:text-slate-900 text-base"
+        >
+          Menu
+        </NavLink>
+      </li>
+      <li>
+        <NavLink
+          to="/addProducts"
+          className="text-slate-600 hover:text-slate-900 text-base"
+        >
+          Gallery
+        </NavLink>
+      </li>
+
+      <li>
+        <NavLink
+          to="/addProducts"
+          className="text-slate-600 hover:text-slate-900 text-base"
+        >
+          Products
+        </NavLink>
+      </li>
+      <li>
+        <NavLink
+          to="/"
+          className="text-slate-600 hover:text-slate-900 text-base"
         >
           My Cart
         </NavLink>
@@ -32,7 +57,7 @@ const Navbar = () => {
   );
 
   return (
-    <nav className="navbar bg-blue-400 px-4 py-3 rounded-md">
+    <nav className="navbar bg-[#FFFFFF] px-4 py-3 rounded-md">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -53,39 +78,40 @@ const Navbar = () => {
           </label>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-blue-400 rounded-md w-52"
+            className="menu menu-sm dropdown-content mt-3 z-[50] p-2 shadow bg-[#FFFFFF] rounded-md w-52"
           >
             {navLinks}
           </ul>
         </div>
-        <Link
-          to="/"
-          className="text-white text-2xl font-bold flex items-center"
-        >
-          <BsApple size={35} />
-          {/* <img
-            src="https://w7.pngwing.com/pngs/775/812/png-transparent-apple-logo-apple-logo-cupertino-company-apple-iphone-electronics-leaf-computer.png"
+        <Link to="/" className="">
+          <img
+            src="https://thememxpro.com/theme/foodily/wp-content/uploads/2022/09/logo-2.png"
             alt="Logo"
-            className="w-10 h-10 mr-2 bg-transparent"
-          /> */}
+            className=""
+          />
         </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">{navLinks}</ul>
       </div>
-      <div className="navbar-end">
-        <button className="btn btn-link">
+      <div className="navbar-end flex gap-2">
+        <button>
+          <Link to="myCart">
+            <BsFillCartCheckFill size={25} className="cursor-pointer" />
+          </Link>
+        </button>
+        <button className="">
           <Link
             to="/login"
-            className="text-slate-800 hover:text-blue-200 md:text-xl font-semibold"
+            className="text-slate-600 hover:text-slate-900 text-base hover:underline font-semibold"
           >
             Login
           </Link>
         </button>
-        <button className="btn btn-link">
+        <button className="">
           <Link
             to="/signIn"
-            className="text-slate-800 hover:text-blue-200 md:text-xl font-semibold"
+            className="text-slate-600 hover:text-slate-900 text-base hover:underline font-semibold"
           >
             Sign In
           </Link>
