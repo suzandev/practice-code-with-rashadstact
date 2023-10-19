@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const BeverageCard = () => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 px-2 py-8">
@@ -16,6 +18,11 @@ const BeverageCard = () => {
         <div className="card-body items-center text-center">
           <h2 className="card-title">Coca-Cola</h2>
           <p>The Real Thing: Coca-Colas Authentic Taste</p>
+          <div className="card-actions">
+            <Link className="btn btn-neutral" to="/categoryItems">
+              view details
+            </Link>
+          </div>
         </div>
       </div>
       <div
@@ -33,6 +40,11 @@ const BeverageCard = () => {
         <div className="card-body items-center text-center">
           <h2 className="card-title">{`McDonald's`}</h2>
           <p>Happy Meal Adventures: McDonald for Everyone</p>
+          <div className="card-actions">
+            <Link className="btn btn-neutral" to="/categoryItems">
+              view details
+            </Link>
+          </div>
         </div>
       </div>
       <div
@@ -50,6 +62,11 @@ const BeverageCard = () => {
         <div className="card-body items-center text-center">
           <h2 className="card-title">Starbucks</h2>
           <p>Starbucks Serenity: Finding Calm in Every Cup</p>
+          <div className="card-actions">
+            <Link className="btn btn-neutral" to="/categoryItems">
+              view details
+            </Link>
+          </div>
         </div>
       </div>
       <div
@@ -67,6 +84,11 @@ const BeverageCard = () => {
         <div className="card-body items-center text-center">
           <h2 className="card-title">PepsiCo</h2>
           <p>The Real Thing: Coca-Colas Authentic Taste</p>
+          <div className="card-actions">
+            <Link className="btn btn-neutral" to="/categoryItems">
+              view details
+            </Link>
+          </div>
         </div>
       </div>
       <div
@@ -82,8 +104,13 @@ const BeverageCard = () => {
           />
         </figure>
         <div className="card-body items-center text-center">
-          <h2 className="card-title">Coca-Cola</h2>
+          <h2 className="card-title">Nestlé</h2>
           <p>The Real Thing: Coca-Colas Authentic Taste</p>
+          <div className="card-actions">
+            <Link className="btn btn-neutral" to="/categoryItems">
+              view details
+            </Link>
+          </div>
         </div>
       </div>
       <div
@@ -104,6 +131,11 @@ const BeverageCard = () => {
             Morning Delight: Embrace a Nutritious Start with {`Kellogg's`}{" "}
             Cereals
           </p>
+          <div className="card-actions">
+            <Link className="btn btn-neutral" to="/categoryItems">
+              view details
+            </Link>
+          </div>
         </div>
       </div>
     </div>

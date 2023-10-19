@@ -39,7 +39,7 @@ const Navbar = () => {
 
       <li>
         <NavLink
-          to="/addProducts"
+          to="/products"
           className="text-slate-600 hover:text-slate-900 text-base"
         >
           Products
