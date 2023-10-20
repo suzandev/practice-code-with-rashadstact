@@ -1,4 +1,3 @@
-import Checkout from "./Checkout";
 import TableRow from "./TableRow";
 export default function CartTable() {
   return (
@@ -19,7 +18,6 @@ export default function CartTable() {
           <TableRow />
         </tbody>
       </table>
-      <Checkout />
     </div>
   );
 }

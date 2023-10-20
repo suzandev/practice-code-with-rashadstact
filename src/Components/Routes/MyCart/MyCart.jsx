@@ -1,4 +1,5 @@
 import CartTable from "./CartTable";
+import Checkout from "./Checkout";
 
 const MyCart = () => {
   return (
@@ -9,6 +10,7 @@ const MyCart = () => {
         </div>
         <div>
           <CartTable />
+          <Checkout />
         </div>
       </div>
     </div>
