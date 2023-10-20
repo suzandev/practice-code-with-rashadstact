@@ -10,6 +10,8 @@ import Menu from "./Components/Routes/Menu/Menu";
 import DetailsPages from "./Components/Routes/MyCart/DetailsPages";
 import MyCart from "./Components/Routes/MyCart/MyCart";
 import Products from "./Components/Routes/Products/Products";
+import AuthenticationForm from "./Providers/Forms/AuthenticationForm";
+import LoginForm from "./Providers/Forms/LoginForm";
 
 const router = createBrowserRouter([
   {
@@ -46,6 +48,20 @@ const router = createBrowserRouter([
       {
         path: "/categoryItems",
         element: <CategoryItems />,
+      },
+      {
+        path: "/auth",
+        element: <AuthenticationForm />,
+        children: [
+          {
+            path: "login",
+            element: <LoginForm />,
+          },
+          {
+            path: "register",
+            element: <h1></h1>,
+          },
+        ],
       },
     ],
   },
