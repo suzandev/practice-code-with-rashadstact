@@ -8,6 +8,7 @@ import CardContextProvider from "./Components/Routes/CardContext/CardContext";
 import DetailsPages from "./Components/Routes/MyCart/DetailsPages";
 import CategoryItems from "./Components/HomePages/Home/CategoryItems";
 import Products from "./Components/Routes/Products/Products";
+import About from "./Components/Routes/About/About";
 
 const router = createBrowserRouter([
   {
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
         path: "/",
         element: <Home />,
         loader: () => fetch("/data.json"),
+      },
+      {
+        path: "/about",
+        element: <About />,
       },
       {
         path: "/products",

@@ -14,7 +14,7 @@ const Navbar = () => {
       </li>
       <li>
         <NavLink
-          to="/addProducts"
+          to="/about"
           className="text-slate-600 hover:text-slate-900 text-base"
         >
           About
