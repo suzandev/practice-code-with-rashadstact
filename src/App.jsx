@@ -1,15 +1,15 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Root from "./Root";
-import ErrorPage from "./ErrorPage";
 import Home from "./Components/HomePages/Home/Home";
+import ErrorPage from "./ErrorPage";
+import Root from "./Root";
 // import AddProducts from "./Components/Routes/AddProducts/AddProducts";
-import MyCart from "./Components/Routes/MyCart/MyCart";
-import CardContextProvider from "./Components/Routes/CardContext/CardContext";
-import DetailsPages from "./Components/Routes/MyCart/DetailsPages";
 import CategoryItems from "./Components/HomePages/Home/CategoryItems";
-import Products from "./Components/Routes/Products/Products";
 import About from "./Components/Routes/About/About";
+import CardContextProvider from "./Components/Routes/CardContext/CardContext";
 import Menu from "./Components/Routes/Menu/Menu";
+import DetailsPages from "./Components/Routes/MyCart/DetailsPages";
+import MyCart from "./Components/Routes/MyCart/MyCart";
+import Products from "./Components/Routes/Products/Products";
 
 const router = createBrowserRouter([
   {

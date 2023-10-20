@@ -1,58 +1,19 @@
-import { Link, NavLink } from "react-router-dom";
 import { BsFillCartCheckFill } from "react-icons/bs";
+import { Link, NavLink } from "react-router-dom";
+import { navMenuItems } from "../../../constant";
 
 const Navbar = () => {
-  const navLinks = (
+  const navItems = (
     <>
-      <li>
-        <NavLink
-          to="/"
-          className="text-slate-600 hover:text-slate-900 text-base"
-        >
-          Home
-        </NavLink>
-      </li>
-      <li>
-        <NavLink
-          to="/about"
-          className="text-slate-600 hover:text-slate-900 text-base"
-        >
-          About
-        </NavLink>
-      </li>
-      <li>
-        <NavLink
-          to="/menu"
-          className="text-slate-600 hover:text-slate-900 text-base"
-        >
-          Menu
-        </NavLink>
-      </li>
-      <li>
-        <NavLink
-          to="/addProducts"
-          className="text-slate-600 hover:text-slate-900 text-base"
-        >
-          Gallery
-        </NavLink>
-      </li>
-
-      <li>
-        <NavLink
-          to="/products"
-          className="text-slate-600 hover:text-slate-900 text-base"
-        >
-          Products
-        </NavLink>
-      </li>
-      <li>
-        <NavLink
-          to="/"
-          className="text-slate-600 hover:text-slate-900 text-base"
-        >
-          My Cart
-        </NavLink>
-      </li>
+      {navMenuItems.map((link) => (
+        <li key={link.name}>
+          <NavLink
+            to={link.link}
+            className="text-slate-600 hover:text-slate-900 text-base mx-2">
+            {link.name}
+          </NavLink>
+        </li>
+      ))}
     </>
   );
 
@@ -66,8 +27,7 @@ const Navbar = () => {
               className="h-5 w-5"
               fill="none"
               viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
+              stroke="currentColor">
               <path
                 strokeLinecap="round"
                 strokeLinejoin="round"
@@ -78,9 +38,8 @@ const Navbar = () => {
           </label>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content mt-3 z-[50] p-2 shadow bg-[#FFFFFF] rounded-md w-52"
-          >
-            {navLinks}
+            className="menu menu-sm dropdown-content mt-3 z-[50] p-2 shadow bg-[#FFFFFF] rounded-md w-52">
+            {navItems}
           </ul>
         </div>
         <Link to="/" className="">
@@ -92,7 +51,7 @@ const Navbar = () => {
         </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1">{navLinks}</ul>
+        <ul className="menu menu-horizontal px-1">{navItems}</ul>
       </div>
       <div className="navbar-end flex gap-2">
         <button>
@@ -103,16 +62,14 @@ const Navbar = () => {
         <button className="">
           <Link
             to="/login"
-            className="text-slate-600 hover:text-slate-900 text-base hover:underline font-semibold"
-          >
+            className="text-slate-600 hover:text-slate-900 text-base hover:underline font-semibold">
             Login
           </Link>
         </button>
         <button className="">
           <Link
             to="/signIn"
-            className="text-slate-600 hover:text-slate-900 text-base hover:underline font-semibold"
-          >
+            className="text-slate-600 hover:text-slate-900 text-base hover:underline font-semibold">
             Sign In
           </Link>
         </button>

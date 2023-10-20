@@ -1,34 +1,17 @@
-import { useContext, useState } from "react";
-import MyAllCart from "./MyAllCart";
-import { CardContext } from "../CardContext/CardContext";
+import CartTable from "./CartTable";
 
 const MyCart = () => {
-  const { CardData } = useContext(CardContext);
-
-  const [seeAll, setSeeAll] = useState(false);
-
-  const data = seeAll ? CardData : CardData.slice(0, 4);
-
   return (
-    <>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        {data.map((cartData) => (
-          <MyAllCart key={cartData.id} cartData={cartData} />
-        ))}
-      </div>
-
-      {CardData.length > 4 && (
-        <div className="flex justify-center w-full py-10">
-          <button
-            onClick={() => setSeeAll(!seeAll)}
-            className="flex select-none items-center rounded-lg py-3 px-6 text-center align-middle text-xs font-bold uppercase bg-green-600 text-white"
-            type="button"
-          >
-            {seeAll ? "See Less" : "See All"}
-          </button>
+    <div className="bg-gradient-to-tl from-white via-white to-[#fae9e6] py-10">
+      <div className="bg-transparent shadow-md px-10 py-6 max-w-5xl mx-auto rounded-md">
+        <div className="py-4 mx-5 border-b-4 border-black w-32 mb-10">
+          <h2 className="text-2xl font-bold">My Cart</h2>
         </div>
-      )}
-    </>
+        <div>
+          <CartTable />
+        </div>
+      </div>
+    </div>
   );
 };
 
