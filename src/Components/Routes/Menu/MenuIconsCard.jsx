@@ -1,52 +1,50 @@
-import { AiOutlineLaptop } from "react-icons/ai";
-import { BsPhoneFill } from "react-icons/bs";
-import { ImHeadphones } from "react-icons/im";
+import { FaRegHandPeace } from "react-icons/fa";
 
 const MenuIconsCard = () => {
   return (
     <div>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 my-10">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 py-20 px-3 md:px-8">
         <div
-          className="flex flex-col justify-center items-center gap-2 rounded-md p-4 border-dotted border-2 border-slate-700"
+          className="flex flex-col justify-center items-center gap-4 rounded-md p-4 border-dotted border-2 border-slate-700"
           data-aos="zoom-in"
           data-aos-duration="1500"
         >
           <div className="">
-            <BsPhoneFill size={60} />
+            <FaRegHandPeace size={40} />
           </div>
 
           <h2 className="card-title">Awesome taste</h2>
-          <p>
+          <p className="text-center">
             Us percipit urbanitas referrentur ea. Mei at numquam molestiae
             intellegam.
           </p>
         </div>
         <div
-          className="flex flex-col justify-center items-center gap-2 rounded-md p-4 border-dotted border-2 border-slate-700"
+          className="flex flex-col justify-center items-center gap-4 rounded-md p-4 border-dotted border-2 border-slate-700"
           data-aos="zoom-in"
           data-aos-duration="1500"
         >
           <div className="">
-            <AiOutlineLaptop size={75} />
+            <FaRegHandPeace size={40} />
           </div>
 
           <h2 className="card-title">ORGANIC FRUITS</h2>
-          <p>
+          <p className="text-center">
             Us percipit urbanitas referrentur ea. Mei at numquam molestiae
             intellegam.
           </p>
         </div>
         <div
-          className="flex flex-col justify-center items-center gap-2 rounded-md p-4 border-dotted border-2 border-slate-700"
+          className="flex flex-col justify-center items-center gap-4 rounded-md p-4 border-dotted border-2 border-slate-700"
           data-aos="zoom-in"
           data-aos-duration="1500"
         >
           <div className="">
-            <ImHeadphones size={75} />
+            <FaRegHandPeace size={40} />
           </div>
 
-          <h2 className="card-title">HEALTHY BLENDS</h2>
-          <p>
+          <h2 className="card-title md:text-base lg:text-lg">HEALTHY BLENDS</h2>
+          <p className="text-center">
             Us percipit urbanitas referrentur ea. Mei at numquam molestiae
             intellegam.
           </p>

@@ -1,4 +1,7 @@
 import MenuIconsCard from "./MenuIconsCard";
+import MenuMarque from "./MenuMarque";
+import SoftlyMenus from "./SoftlyMenus";
+import Marquee from "react-fast-marquee";
 
 const Menu = () => {
   const bannerStyle = {
@@ -22,6 +25,17 @@ const Menu = () => {
       </div>
 
       <MenuIconsCard />
+
+      <img
+        src="https://thememxpro.com/theme/foodily/wp-content/uploads/2022/09/8.jpg"
+        alt=""
+      />
+
+      <SoftlyMenus />
+
+      <Marquee>
+        <MenuMarque />
+      </Marquee>
     </div>
   );
 };
