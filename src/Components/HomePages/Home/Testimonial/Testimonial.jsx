@@ -2,7 +2,7 @@ import TestimonialSlider from "./TestimonialSlider/TestimonialSlider";
 
 const Testimonial = () => {
   return (
-    <div className="py-20">
+    <div className="">
       <div className="flex flex-col justify-center items-center">
         <p
           className="text-2xl text-[#BEB996] pb-6"
