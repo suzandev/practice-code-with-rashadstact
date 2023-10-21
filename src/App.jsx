@@ -12,6 +12,7 @@ import MyCart from "./Components/Routes/MyCart/MyCart";
 import Products from "./Components/Routes/Products/Products";
 import AuthenticationForm from "./Providers/Forms/AuthenticationForm";
 import LoginForm from "./Providers/Forms/LoginForm";
+import RegistrationForm from "./Providers/Forms/RegistrationForm";
 
 const router = createBrowserRouter([
   {
@@ -59,7 +60,7 @@ const router = createBrowserRouter([
           },
           {
             path: "register",
-            element: <h1></h1>,
+            element: <RegistrationForm />,
           },
         ],
       },
